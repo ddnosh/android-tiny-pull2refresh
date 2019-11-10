@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <com.androidwind.tinypull2refresh.Pull2RefreshLayout
+        android:id="@+id/p2r"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#22000000"
+            android:text="Hello World!" />
+
+    </com.androidwind.tinypull2refresh.Pull2RefreshLayout>
+
+</LinearLayout>
